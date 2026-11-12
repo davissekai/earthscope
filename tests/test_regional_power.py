@@ -1,7 +1,7 @@
 import pandas as pd
 import pytest
 
-from spatial.power_regional import (
+from earthscope.spatial.power_regional import (
     RegionalPowerError,
     available_years,
     build_request_params,
@@ -99,9 +99,9 @@ def test_grid_spacing_is_descriptive_and_years_ignore_missing():
 
 
 def test_solar_period_does_not_claim_pre_1984():
-    from spatial.power_regional import fetch_parameter
+    from earthscope.spatial.power_regional import fetch_parameter
     # Guard the start-year rule through a patched fetch_tile.
-    import spatial.power_regional as regional
+    import earthscope.spatial.power_regional as regional
     calls = []
     original = regional.fetch_tile
 

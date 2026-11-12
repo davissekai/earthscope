@@ -1,6 +1,6 @@
 import pandas as pd
 
-from spatial.analysis import filter_cells_to_boundary
+from earthscope.spatial.analysis import filter_cells_to_boundary
 from tests.test_spatial_analysis import sample_grid
 
 
@@ -33,7 +33,7 @@ def test_empty_or_missing_boundary_does_not_mutate_input():
 
 
 def test_map_summary_contains_only_ghana_cells_and_clipped_geometry():
-    from spatial.map import build_regional_grid_map
+    from earthscope.spatial.map import build_regional_grid_map
     fmap, summary, _ = build_regional_grid_map(
         sample_grid(), "T2M", 2010, 2019,
         mode="Mean value", boundary_geojson=boundary_fixture(),

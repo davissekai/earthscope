@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-from spatial.analysis import cell_trend_table, grid_cell_bounds, period_cell_means
+from earthscope.spatial.analysis import cell_trend_table, grid_cell_bounds, period_cell_means
 
 
 def sample_grid():

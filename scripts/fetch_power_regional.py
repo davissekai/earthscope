@@ -16,7 +16,7 @@ from pathlib import Path
 # Make the repository package importable when this file is run as a module.
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
-from spatial.power_regional import fetch_parameter, estimate_grid_spacing
+from earthscope.spatial.power_regional import fetch_parameter, estimate_grid_spacing
 from earthscope import config
 
 

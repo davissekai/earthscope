@@ -1,5 +1,5 @@
 from tests.test_spatial_analysis import sample_grid
-from spatial.map import build_regional_grid_map
+from earthscope.spatial.map import build_regional_grid_map
 
 
 def test_mean_map_contains_native_grid_rectangles_and_colour_legend():
