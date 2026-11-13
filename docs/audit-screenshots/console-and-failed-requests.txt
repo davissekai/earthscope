@@ -1,0 +1,21 @@
+Console messages captured in the local browser session
+
+warning: Unrecognized feature: 'ambient-light-sensor'.
+warning: Unrecognized feature: 'battery'.
+warning: Unrecognized feature: 'document-domain'.
+warning: Unrecognized feature: 'layout-animations'.
+warning: Unrecognized feature: 'legacy-image-formats'.
+warning: Unrecognized feature: 'oversized-images'.
+warning: Unrecognized feature: 'vr'.
+warning: Unrecognized feature: 'wake-lock'.
+warning: An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+warning: An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+warning: An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+warning: An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing.
+
+Failed network requests
+
+net::ERR_ABORTED https://tile.openstreetmap.org/6/31/30.png
+net::ERR_ABORTED https://tile.openstreetmap.org/6/30/29.png
+net::ERR_ABORTED https://tile.openstreetmap.org/6/32/29.png
+net::ERR_ABORTED https://tile.openstreetmap.org/6/29/30.png
